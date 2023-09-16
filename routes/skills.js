@@ -8,6 +8,8 @@ const router = Router()
 router.get('/', skillsCtrl.index)
 router.get('/new', skillsCtrl.new)
 router.post('/', skillsCtrl.create)
+router.delete('/:skillId', skillsCtrl.delete)
 router.get('/:skillId', skillsCtrl.show)
+
 
 export { router }
