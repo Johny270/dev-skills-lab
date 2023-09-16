@@ -1,5 +1,5 @@
 // import npm packages
-import 'dotenv/config.js'
+import "dotenv/config.js"
 import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -30,6 +30,9 @@ app.use(
 // mount imported routes
 app.use('/', indexRouter)
 app.use('/skills', skillsRouter)
+// app.use('/skills/new', skillsRouter)
+
+// app.use('/skills/new', )
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

@@ -17,7 +17,7 @@ const skills = [
   {
     skillName: 'Javascript programming',
     isAcquired: true,
-    _id: 1
+    _id: 4
   }
 ]
 
